@@ -1,0 +1,1059 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\ia\\uciprocesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\ia\\uciprocesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\resources\\pieces.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\resources\\pieces.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\amodel\\pieces\\bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\amodel\\pieces\\bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\resources\\sprites\\bishopblack.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\resources\\sprites\\bishopblack.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\game\\localgamecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\game\\localgamecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\game\\gamefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\game\\gamefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\game\\gamecreatorparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\game\\gamecreatorparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\game\\gamecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\game\\gamecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\game\\aigamecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\game\\aigamecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\realengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\realengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rules\\willnotmakecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\willnotmakecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rules\\rookmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\rookmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rules\\queenmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\queenmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rules\\pawnmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\pawnmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rules\\knightmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\knightmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rules\\kingmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\kingmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rules\\irule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\irule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rules\\castlingrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\castlingrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rules\\canonlytakeennemyruleking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\canonlytakeennemyruleking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rules\\canonlytakeennemyrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\canonlytakeennemyrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rules\\bishopmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\bishopmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rulemanager\\rulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rulemanager\\rulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rulemanager\\rookrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rulemanager\\rookrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rulemanager\\queenrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rulemanager\\queenrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rulemanager\\pawnrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rulemanager\\pawnrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rulemanager\\knightrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rulemanager\\knightrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rulemanager\\kingrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rulemanager\\kingrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\engine\\rulemanager\\bishoprulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rulemanager\\bishoprulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\core\\playercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\core\\playercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\core\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\core\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\viewmodel\\core\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\core\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\window\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\window\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\window\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\window\\gamemodeselection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\gamemodeselection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\window\\gamemodeselection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\gamemodeselection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\window\\aioptionselection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\aioptionselection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\window\\feature\\piecetypeselectionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\feature\\piecetypeselectionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\window\\feature\\piecetypeselectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\feature\\piecetypeselectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\modelview\\squareview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\modelview\\squareview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\modelview\\pieceview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\modelview\\pieceview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\modelview\\boardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\modelview\\boardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\modelview\\boardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\modelview\\boardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\flyoutcontent\\gameviewflyout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\flyoutcontent\\gameviewflyout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\view\\flyoutcontent\\gameviewflyout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\flyoutcontent\\gameviewflyout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\utility\\fentranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\utility\\fentranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\io\\isaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\io\\isaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\io\\iloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\io\\iloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\io\\binarysaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\io\\binarysaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\io\\binaryloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\io\\binaryloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\command\\promotecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\command\\promotecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\command\\movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\command\\movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\command\\icompensableconversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\command\\icompensableconversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\command\\icompensablecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\command\\icompensablecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\command\\enpassantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\command\\enpassantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\command\\compensableconversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\command\\compensableconversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgamenewest\\chessgame\\chessgame\\model\\command\\castlingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\model\\command\\castlingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 60,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\App.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\App.xaml",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\App.xaml",
+              "RelativeToolTip": "CHESSGAME\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T06:47:05.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\MainWindow.xaml",
+              "RelativeToolTip": "CHESSGAME\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T06:45:31.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bishopBlack.png",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Resources\\Sprites\\bishopBlack.png",
+              "RelativeDocumentMoniker": "CHESSGAME\\Resources\\Sprites\\bishopBlack.png",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Resources\\Sprites\\bishopBlack.png",
+              "RelativeToolTip": "CHESSGAME\\Resources\\Sprites\\bishopBlack.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-21T06:23:10.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bishop.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\AModel\\Pieces\\Bishop.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\AModel\\Pieces\\Bishop.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\AModel\\Pieces\\Bishop.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\AModel\\Pieces\\Bishop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T06:15:19.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UciProcessController.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\IA\\UciProcessController.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\IA\\UciProcessController.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\IA\\UciProcessController.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\IA\\UciProcessController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:48:06.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocalGameCreator.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Game\\LocalGameCreator.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Game\\LocalGameCreator.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Game\\LocalGameCreator.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Game\\LocalGameCreator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:47:43.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameFactory.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Game\\GameFactory.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Game\\GameFactory.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Game\\GameFactory.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Game\\GameFactory.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:46:27.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pieces.xaml",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Resources\\Pieces.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\Resources\\Pieces.xaml",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Resources\\Pieces.xaml",
+              "RelativeToolTip": "CHESSGAME\\Resources\\Pieces.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T04:10:21.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameCreatorParameters.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Game\\GameCreatorParameters.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Game\\GameCreatorParameters.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Game\\GameCreatorParameters.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Game\\GameCreatorParameters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:46:23.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameCreator.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Game\\GameCreator.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Game\\GameCreator.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Game\\GameCreator.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Game\\GameCreator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:46:05.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AiGameCreator.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Game\\AiGameCreator.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Game\\AiGameCreator.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Game\\AiGameCreator.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Game\\AiGameCreator.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:45:58.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RealEngine.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RealEngine.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\RealEngine.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RealEngine.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\RealEngine.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:45:47.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEngine.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\IEngine.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\IEngine.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\IEngine.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\IEngine.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:45:41.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WillNotMakeCheck.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\WillNotMakeCheck.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\WillNotMakeCheck.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\WillNotMakeCheck.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\WillNotMakeCheck.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:45:37.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RookMovementRule.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\RookMovementRule.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\RookMovementRule.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\RookMovementRule.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\RookMovementRule.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:45:33.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QueenMovementRule.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\QueenMovementRule.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\QueenMovementRule.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\QueenMovementRule.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\QueenMovementRule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:45:30.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PawnMovementRule.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\PawnMovementRule.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\PawnMovementRule.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\PawnMovementRule.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\PawnMovementRule.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:43:26.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KnightMovementRule.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\KnightMovementRule.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\KnightMovementRule.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\KnightMovementRule.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\KnightMovementRule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:43:25.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KingMovementRule.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\KingMovementRule.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\KingMovementRule.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\KingMovementRule.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\KingMovementRule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:42:37.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IRule.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\IRule.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\IRule.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\IRule.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\IRule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:42:37.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CastlingRule.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\CastlingRule.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\CastlingRule.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\CastlingRule.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\CastlingRule.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:41:03.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CanOnlyTakeEnnemyRuleKing.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\CanOnlyTakeEnnemyRuleKing.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\CanOnlyTakeEnnemyRuleKing.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\CanOnlyTakeEnnemyRuleKing.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\CanOnlyTakeEnnemyRuleKing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:40:48.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CanOnlyTakeEnnemyRule.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\CanOnlyTakeEnnemyRule.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\CanOnlyTakeEnnemyRule.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\CanOnlyTakeEnnemyRule.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\CanOnlyTakeEnnemyRule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:40:44.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BishopMovementRule.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\BishopMovementRule.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\BishopMovementRule.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\BishopMovementRule.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\BishopMovementRule.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:40:34.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RuleGroup.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\RuleGroup.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\RuleGroup.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\RuleGroup.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\RuleGroup.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:40:21.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RookRuleGroup.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\RookRuleGroup.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\RookRuleGroup.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\RookRuleGroup.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\RookRuleGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:40:19.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "QueenRuleGroup.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\QueenRuleGroup.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\QueenRuleGroup.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\QueenRuleGroup.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\QueenRuleGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:40:17.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PawnRuleGroup.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\PawnRuleGroup.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\PawnRuleGroup.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\PawnRuleGroup.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\PawnRuleGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:40:16.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "KnightRuleGroup.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\KnightRuleGroup.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\KnightRuleGroup.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\KnightRuleGroup.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\KnightRuleGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:40:14.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "KingRuleGroup.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\KingRuleGroup.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\KingRuleGroup.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\KingRuleGroup.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\KingRuleGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:40:10.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BishopRuleGroup.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\BishopRuleGroup.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\BishopRuleGroup.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\RuleManager\\BishopRuleGroup.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\RuleManager\\BishopRuleGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:40:07.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PlayerControler.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Core\\PlayerControler.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Core\\PlayerControler.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Core\\PlayerControler.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Core\\PlayerControler.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwB8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:37:38.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Core\\Player.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Core\\Player.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Core\\Player.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Core\\Player.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:34:19.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Core\\Game.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Core\\Game.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\ViewModel\\Core\\Game.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Core\\Game.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAcwH8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:23:00.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAuwBMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:22:20.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\Home.xaml.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\Home.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\Home.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:21:24.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\Home.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\Home.xaml",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\Home.xaml",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T04:21:21.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GameView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\GameView.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\GameView.xaml.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\GameView.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\GameView.xaml.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAQwGQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:19:28.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GameModeSelection.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\GameModeSelection.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\GameModeSelection.xaml.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\GameModeSelection.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\GameModeSelection.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:19:20.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GameModeSelection.xaml",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\GameModeSelection.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\GameModeSelection.xaml",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\GameModeSelection.xaml",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\GameModeSelection.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T04:19:16.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AiOptionSelection.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\AiOptionSelection.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\AiOptionSelection.xaml.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\AiOptionSelection.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\AiOptionSelection.xaml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:19:03.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PieceTypeSelectionWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:18:36.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PieceTypeSelectionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T04:16:57.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SquareView.xaml",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\ModelView\\SquareView.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\ModelView\\SquareView.xaml",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\ModelView\\SquareView.xaml",
+              "RelativeToolTip": "CHESSGAME\\View\\ModelView\\SquareView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T04:16:38.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PieceView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\ModelView\\PieceView.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\ModelView\\PieceView.xaml.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\ModelView\\PieceView.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\ModelView\\PieceView.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:16:07.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BoardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\ModelView\\BoardView.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\ModelView\\BoardView.xaml.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\ModelView\\BoardView.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\ModelView\\BoardView.xaml.cs",
+              "ViewState": "AQIAAKMBAAAAAAAAAAAmwLMBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:12:32.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BoardView.xaml",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\ModelView\\BoardView.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\ModelView\\BoardView.xaml",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\ModelView\\BoardView.xaml",
+              "RelativeToolTip": "CHESSGAME\\View\\ModelView\\BoardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T04:12:28.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GameViewFlyout.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\FlyoutContent\\GameViewFlyout.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\FlyoutContent\\GameViewFlyout.xaml.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\FlyoutContent\\GameViewFlyout.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\FlyoutContent\\GameViewFlyout.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:10:40.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GameViewFlyout.xaml",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\FlyoutContent\\GameViewFlyout.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\FlyoutContent\\GameViewFlyout.xaml",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\View\\FlyoutContent\\GameViewFlyout.xaml",
+              "RelativeToolTip": "CHESSGAME\\View\\FlyoutContent\\GameViewFlyout.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T04:10:33.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FenTranslator.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Utility\\FenTranslator.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\Utility\\FenTranslator.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Utility\\FenTranslator.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\Utility\\FenTranslator.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:09:36.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ISaver.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\IO\\ISaver.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\IO\\ISaver.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\IO\\ISaver.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\IO\\ISaver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:09:33.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ILoader.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\IO\\ILoader.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\IO\\ILoader.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\IO\\ILoader.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\IO\\ILoader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:09:28.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "BinarySaver.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\IO\\BinarySaver.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\IO\\BinarySaver.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\IO\\BinarySaver.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\IO\\BinarySaver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:09:22.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "BinaryLoader.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\IO\\BinaryLoader.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\IO\\BinaryLoader.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\IO\\BinaryLoader.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\IO\\BinaryLoader.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:09:17.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PromoteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\PromoteCommand.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\Command\\PromoteCommand.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\PromoteCommand.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\Command\\PromoteCommand.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:09:05.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "MoveCommand.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\MoveCommand.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\Command\\MoveCommand.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\MoveCommand.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\Command\\MoveCommand.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:08:59.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ICompensableConversation.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\ICompensableConversation.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\Command\\ICompensableConversation.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\ICompensableConversation.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\Command\\ICompensableConversation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:08:58.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ICompensableCommand.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\ICompensableCommand.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\Command\\ICompensableCommand.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\ICompensableCommand.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\Command\\ICompensableCommand.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:08:53.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EnPassantCommand.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\EnPassantCommand.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\Command\\EnPassantCommand.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\EnPassantCommand.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\Command\\EnPassantCommand.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:08:45.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CompensableConversation.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\CompensableConversation.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\Command\\CompensableConversation.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\CompensableConversation.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\Command\\CompensableConversation.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:08:34.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CastlingCommand.cs",
+              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\CastlingCommand.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Model\\Command\\CastlingCommand.cs",
+              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\chessgamenewest\\CHESSGAME\\CHESSGAME\\Model\\Command\\CastlingCommand.cs",
+              "RelativeToolTip": "CHESSGAME\\Model\\Command\\CastlingCommand.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:08:25.145Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
