@@ -10,18 +10,18 @@ using CHESSGAME.Model.AModel;
 using CHESSGAME.ViewModel.Engine;
 using CHESSGAME.ViewModel.Game;
 using CHESSGAME.Model.Command;
-using CHESSGAME.View.Window;
 using Color = CHESSGAME.Model.AModel.Pieces.Color;
 using Type = CHESSGAME.Model.AModel.Pieces.Type;
+using System.Security.Cryptography;
 
 namespace CHESSGAME.View.ModelView
 {
     /// <summary>
     ///     Interaction logic for BoardView.xaml
     /// </summary>
-    public partial class BoardView : UserControl
+    public partial class BoardView : UserControl // Lớp đại diện cho bàn cờ
     {
-        #region Fields
+        #region Fields lưu trữ trạng thái của bàn cờ và tương tác của người dùng
 
         private SquareView _lastChangedSquareView;
         private List<SquareView> _possibleMoves = new List<SquareView>();
@@ -45,6 +45,7 @@ namespace CHESSGAME.View.ModelView
             Board = container.Board;
             _container = container;
 
+            // Các hàng, cột được thêm vào grid để khởi tạo bàn cờ
             for (int i = 0; i < Board.Size; i++)
             {
                 Grid.RowDefinitions.Add(new RowDefinition());
@@ -54,6 +55,7 @@ namespace CHESSGAME.View.ModelView
             Grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
             Grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
 
+            //Tạo các ô bàn cờ (SquareView), thêm vào grid
             foreach (var square in Board.Squares)
             {
                 var squareView = new SquareView(square)
@@ -62,9 +64,10 @@ namespace CHESSGAME.View.ModelView
                     LayoutTransform = LayoutTransform
                 };
                 SquareViews.Add(squareView);
-                Grid.Children.Add(squareView); //Position is set in the squareview constructor
+                Grid.Children.Add(squareView); 
             }
 
+            // Tạo nhãn A-H 
             for (int i = 0; i < Board.Size; i++)
             {
                 Label label = new Label
@@ -77,6 +80,7 @@ namespace CHESSGAME.View.ModelView
                 Grid.Children.Add(label);
             }
 
+            // Tạo nhãn 1-8
             for (int i = Board.Size; i > 0; i--)
             {
                 Label label = new Label
@@ -89,6 +93,7 @@ namespace CHESSGAME.View.ModelView
                 Grid.Children.Add(label);
             }
 
+            // Theo dõi các thay đổi trong danh sách di chuyển, cập nhật màu sắc của ô cờ tương ứng khi có di chuyển mới
             _container.Moves.CollectionChanged += (sender, args) =>
             {
                 if (args.Action == NotifyCollectionChangedAction.Add ||
@@ -96,7 +101,7 @@ namespace CHESSGAME.View.ModelView
                 {
                     if (_container.Moves.Count != 0)
                     {
-                        Console.WriteLine("Changed color");
+                        //Console.WriteLine("Changed color");
                         _lastMove.ForEach(ResetSquareViewColor);
                         _lastMove.Clear();
 
@@ -116,17 +121,17 @@ namespace CHESSGAME.View.ModelView
 
         #region Properties
 
-        public List<SquareView> SquareViews { get; } = new List<SquareView>();
+        public List<SquareView> SquareViews { get; } = new List<SquareView>(); // Danh sách các ô cờ 
         public Board Board { get; set; }
 
-        public List<BoardViewPlayerController> BoardViewPlayerControllers { get; set; } =
-            new List<BoardViewPlayerController>();
+        // Danh sách các điều khiển của người chơi cho bàn cờ
+        public List<BoardViewPlayerController> BoardViewPlayerControllers { get; set; } = new List<BoardViewPlayerController>(); 
 
         #endregion
 
         #region EventHandling
 
-        protected override void OnMouseDown(MouseButtonEventArgs e)
+        protected override void OnMouseDown(MouseButtonEventArgs e) // Xử lý sự kiện khi nhấn chuột trái.
         {
             base.OnMouseDown(e);
             if (e.ChangedButton != MouseButton.Left) return;
@@ -141,24 +146,19 @@ namespace CHESSGAME.View.ModelView
             ResetBoardColor();
             _selectedPiece = _clickedSquare.PieceView;
 
-
-            //Concerned controllers to get the possible moves
+            // Controllers được sử dụng để lấy danh sách nước đi hợp lệ cho quân cờ được chọn 
             List<BoardViewPlayerController> concernedControllers =
-                BoardViewPlayerControllers.FindAll(
-                    x => (x.Player.Color == (_selectedPiece?.Piece.Color) && x.IsPlayable));
+                BoardViewPlayerControllers.FindAll(x => (x.Player.Color == (_selectedPiece?.Piece.Color) && x.IsPlayable));
 
             if (concernedControllers.Count == 0) return;
             _initDragAndDropOnMouseMove = true;
 
-            //Possible move drawing
+            // Vẽ các nước đi hợp lệ
             foreach (Square square in concernedControllers.First().PossibleMoves(_selectedPiece.Piece))
             {
-                SquareView squareView =
-                    Grid.Children.Cast<SquareView>()
-                        .First(x => Grid.GetRow(x) == square.Y && Grid.GetColumn(x) == square.X);
+                SquareView squareView = Grid.Children.Cast<SquareView>().First(x => Grid.GetRow(x) == square.Y && Grid.GetColumn(x) == square.X);
 
-                squareView.SetResourceReference(BackgroundProperty,
-                    (square.X + square.Y) % 2 == 0
+                squareView.SetResourceReference(BackgroundProperty,(square.X + square.Y) % 2 == 0
                         ? "CleanWindowCloseButtonBackgroundBrush"
                         : "CleanWindowCloseButtonPressedBackgroundBrush");
 
@@ -166,7 +166,7 @@ namespace CHESSGAME.View.ModelView
             }
         }
 
-        protected override void OnMouseUp(MouseButtonEventArgs e)
+        protected override void OnMouseUp(MouseButtonEventArgs e) // Xử lý sự kiện nhả chuột
         {
             base.OnMouseUp(e);
             if (e.ChangedButton != MouseButton.Left) return;
@@ -179,7 +179,8 @@ namespace CHESSGAME.View.ModelView
 
             Move move = null;
             SquareView squareView = SquareAt(e.GetPosition(Grid));
-            //TODO Put all the fields in the corresponding state
+
+            //Nếu ô được nhấp chuột không hợp lệ
             if (squareView == null)
             {
                 if (_selectedPiece == null) return;
@@ -191,11 +192,12 @@ namespace CHESSGAME.View.ModelView
             }
             SquareView clickedSquareView = SquareAt(_mouseDownPoint);
 
-            bool select = Equals(squareView.Square.Coordinate, clickedSquareView?.Square?.Coordinate); //Same square
+            // Kiểm tra xem người chơi có nhấp vào cùng một ô hay không
+            bool select = Equals(squareView.Square.Coordinate, clickedSquareView?.Square?.Coordinate); 
 
             if (select)
             {
-                if (_hasBeginDragAndDrop)
+                if (_hasBeginDragAndDrop) // Kéo thả
                 {
                     Canvas.Children.Remove(_selectedPiece);
                     _clickedSquare.PieceView = _selectedPiece;
@@ -207,9 +209,10 @@ namespace CHESSGAME.View.ModelView
                 //First click
                 if (!_selected)
                 {
-                    Console.WriteLine("Selection");
+                    //Console.WriteLine("Selection");
                     _selected = true;
                 }
+
                 //Second click
                 else
                 {
@@ -217,11 +220,14 @@ namespace CHESSGAME.View.ModelView
 
                     _selected = false;
                     ResetBoardColor();
+
+                    // Nếu là quân Tốt và đang đặt ở hàng cuối cùng
                     if ((_selectedPiece.Piece.Type == Type.Pawn) &&
                     (squareView.Square.Y == (_selectedPiece.Piece.Color == Color.White ? 0 : 7)))
                     {
                         var promoteDialog = new View.Window.Feature.PieceTypeSelectionWindow(_selectedPiece.Piece.Color);
-                        promoteDialog.ShowDialog();
+                        promoteDialog.ShowDialog(); // Hiển thị cửa sổ thăng cấp
+
                         move = new Move(_selectedPiece.Piece.Square, squareView.Square, _selectedPiece.Piece.Type,
                             _selectedPiece.Piece.Color, promoteDialog.ChosenType);
                     }
@@ -232,7 +238,7 @@ namespace CHESSGAME.View.ModelView
                     concernedControllers.ForEach(x => x.Move(move));
                 }
             }
-            else //Drag case
+            else //Kéo thả đến ô hợp lệ
             {
                 if (!_possibleMoves.Contains(squareView))
                 {
@@ -243,8 +249,7 @@ namespace CHESSGAME.View.ModelView
                 Canvas.Children.Remove(_selectedPiece);
                 ResetBoardColor();
 
-                if ((_selectedPiece.Piece.Type == Type.Pawn) &&
-                    (squareView.Square.Y == (_selectedPiece.Piece.Color == Color.White ? 0 : 7)))
+                if ((_selectedPiece.Piece.Type == Type.Pawn) && (squareView.Square.Y == (_selectedPiece.Piece.Color == Color.White ? 0 : 7)))
                 {
                     var promoteDialog = new View.Window.Feature.PieceTypeSelectionWindow(_selectedPiece.Piece.Color);
                     promoteDialog.ShowDialog();
@@ -260,11 +265,12 @@ namespace CHESSGAME.View.ModelView
                 _hasBeginDragAndDrop = false;
             }
         }
-        protected override void OnMouseMove(MouseEventArgs e)
+        protected override void OnMouseMove(MouseEventArgs e) // Xử lý sự kiện di chuyển chuột
         {
             base.OnMouseMove(e);
 
-            Point p = e.GetPosition(Grid);
+            Point p = e.GetPosition(Grid); // Lấy vị trí chuột trong hệ tọa độ của grid
+
             if (p.X < 0 || p.Y < 0 || p.X > Grid.ActualWidth || p.Y > Grid.ActualHeight)
             {
                 if (_selectedPiece == null) return;
@@ -274,52 +280,55 @@ namespace CHESSGAME.View.ModelView
                 _selected = false;
                 return;
             }
-            //Use the threshold too
+
+            // Kiểm tra các điều kiện kéo thả
             if (!_mouseDown) return;
             if (_selectedPiece == null) return;
+
+            // Quá trình kéo thả
             if (_initDragAndDropOnMouseMove && (_mouseDownPoint - e.GetPosition(Grid)).Length > 5)
             {
-                Console.WriteLine("Init drag and drop");
                 _clickedSquare.PieceView = null;
 
                 var width = _selectedPiece.ActualWidth;
                 var height = _selectedPiece.ActualHeight;
 
-                //Put the pieceView in the canvas to be able to drag&drop
+                // Thêm quân cờ vào Canvas
                 Canvas.Children.Add(_selectedPiece);
 
                 _selectedPiece.Height = height;
                 _selectedPiece.Width = width;
 
+                // Đánh dấu quá trình kéo thả đã bắt đầu
                 _initDragAndDropOnMouseMove = false;
                 _hasBeginDragAndDrop = true;
             }
+
+            // Điều chỉnh lại vị trí quân cờ theo tọa độ chuột
             Canvas.SetTop(_selectedPiece, e.GetPosition(this).Y - _selectedPiece.ActualHeight / 2);
             Canvas.SetLeft(_selectedPiece, e.GetPosition(this).X - _selectedPiece.ActualWidth / 2);
         }
 
-        //TODO add on mouse leave
         #endregion
 
         #region Coloration
 
-        private void ResetBoardColor()
+        private void ResetBoardColor() // Đặt lại màu sắc cho bàn cờ về trạng thái cơ bản
         {
             _possibleMoves.ForEach(ResetSquareViewColor);
-            _lastMove.ForEach(x => x.SetResourceReference(BackgroundProperty,
-                (x.Square.X + x.Square.Y) % 2 == 0
+            _lastMove.ForEach(x => x.SetResourceReference(BackgroundProperty, (x.Square.X + x.Square.Y) % 2 == 0
                     ? "CheckBoxBrush"
                     : "CheckBoxMouseOverBrush"));
             _possibleMoves.Clear();
         }
 
-        private static void ResetSquareViewColor(SquareView squareView)
+        private static void ResetSquareViewColor(SquareView squareView) // Đặt lại màu sắc cho ô cờ
         {
             squareView.SetResourceReference(BackgroundProperty,
                 (squareView.Square.X + squareView.Square.Y) % 2 == 0 ? "AccentColorBrush" : "AccentColorBrush4");
         }
 
-        public void GameStateChanged(BoardState state)
+        public void GameStateChanged(BoardState state) // Thay đổi trạng thái trò chơi khi có sự kiện xảy ra
         {
             SquareView squareView = null;
 
@@ -327,57 +336,58 @@ namespace CHESSGAME.View.ModelView
 
             switch (state)
             {
-                case BoardState.Normal:
+                case BoardState.Normal: // Trạng thái bình thường, khôi phục màu sắc gốc
                     if (_lastChangedSquareView != null)
                         ResetSquareViewColor(_lastChangedSquareView);
                     break;
-                case BoardState.WhiteCheck:
-                    squareView =
-                        SquareViews.First(
+
+                case BoardState.WhiteCheck: // Vua trắng bị chiếu
+                    squareView = SquareViews.First(
                             x => (x.Square?.Piece?.Type == Type.King) && (x.Square?.Piece?.Color == Color.White));
                     squareView.SetResourceReference(BackgroundProperty, "ValidationBrush5");
                     break;
-                case BoardState.BlackCheck:
-                    squareView =
-                        SquareViews.First(
+
+                case BoardState.BlackCheck: // Vua đen bị chiếu
+                    squareView = SquareViews.First(
                             x => (x.Square?.Piece?.Type == Type.King) && (x.Square?.Piece?.Color == Color.Black));
                     squareView.SetResourceReference(BackgroundProperty, "ValidationBrush5");
                     break;
-                case BoardState.BlackCheckMate:
-                    squareView =
-                        SquareViews.First(
+
+                case BoardState.BlackCheckMate: // Vua đen bị chiếu hết
+                    squareView = SquareViews.First(
                             x => (x.Square?.Piece?.Type == Type.King) && (x.Square?.Piece?.Color == Color.Black));
                     squareView.SetResourceReference(BackgroundProperty, "TextBrush");
                     break;
-                case BoardState.WhiteCheckMate:
-                    squareView =
-                        SquareViews.First(
+
+                case BoardState.WhiteCheckMate: // Vua trắng bị chiếu hết
+                    squareView = SquareViews.First(
                             x => (x.Square?.Piece?.Type == Type.King) && (x.Square?.Piece?.Color == Color.White));
                     squareView.SetResourceReference(BackgroundProperty, "TextBrush");
                     break;
-                case BoardState.BlackPat:
-                    squareView =
-                        SquareViews.First(
+
+                case BoardState.BlackPat: // Hòa cờ khi vua đen không thể di chuyển && không bị chiếu
+                    squareView = SquareViews.First(
                             x => (x.Square?.Piece?.Type == Type.King) && (x.Square?.Piece?.Color == Color.Black));
                     squareView.SetResourceReference(BackgroundProperty, "WhiteColorBrush");
                     break;
-                case BoardState.WhitePat:
-                    squareView =
-                        SquareViews.First(
+
+                case BoardState.WhitePat: // Hòa cờ khi vua trắng không thể di chuyển && không bị chiếu
+                    squareView = SquareViews.First(
                             x => (x.Square?.Piece?.Type == Type.King) && (x.Square?.Piece?.Color == Color.White));
                     squareView.SetResourceReference(BackgroundProperty, "WhiteColorBrush");
                     break;
+
                 default:
                     throw new ArgumentOutOfRangeException(nameof(state), state, null);
             }
-            _lastChangedSquareView = squareView;
+            _lastChangedSquareView = squareView; // Lưu lại các ô đã được thay đổi
         }
 
         #endregion
 
-        #region Utils
+        #region Utilities
 
-        private void ResetDragAndDrop()
+        private void ResetDragAndDrop() // Đặt lại trạng thái kéo thả
         {
             if (_selectedPiece == null) return;
             Canvas.Children.Remove(_selectedPiece);
@@ -386,12 +396,12 @@ namespace CHESSGAME.View.ModelView
             _hasBeginDragAndDrop = false;
         }
 
-        private SquareView SquareAt(Point point)
+        private SquareView SquareAt(Point point) // Xác định các ô cờ dựa vào tọa độ
         {
             var row = 0;
             var col = 0;
-            var accumulatedHeight = 0.0;
-            var accumulatedWidth = 0.0;
+            var accumulatedHeight = 0.0; // Tổng chiều cao
+            var accumulatedWidth = 0.0; // Tổng chiều rộng
 
             foreach (var rowDefinition in Grid.RowDefinitions)
             {
@@ -409,25 +419,25 @@ namespace CHESSGAME.View.ModelView
                 col++;
             }
 
-            var clickedControl = Grid.Children
-                .OfType<UIElement>()
-                .First(x => (Grid.GetRow(x) == row) && (Grid.GetColumn(x) == col));
+            var clickedControl = Grid.Children.OfType<UIElement>().First(x => (Grid.GetRow(x) == row) && (Grid.GetColumn(x) == col));
 
             return clickedControl as SquareView;
         }
 
-        private SquareView SquareAt(Coordinate coordinate) =>
+        private SquareView SquareAt(Coordinate coordinate) => // Xác định ô cờ dựa vào tọa độ logic trên bàn cờ
             Grid.Children.Cast<UIElement>()
                 .FirstOrDefault(e => Grid.GetColumn(e) == coordinate.X && Grid.GetRow(e) == coordinate.Y) as SquareView;
 
-        private List<BoardViewPlayerController> ConcernedControllers() =>
+        private List<BoardViewPlayerController> ConcernedControllers() => // Xác định controller phù hợp với quân cờ được chọn 
                 BoardViewPlayerControllers.FindAll(x => (x.Player.Color == (_selectedPiece?.Piece.Color) && x.IsPlayable));
 
         #endregion
 
-        #region Misc
+        #region Miscellaneous
+
+        // Đăng ký thuộc tính phụ thuộc cho Borderbrush, cho phép tùy chỉnh màu viền của SquareView
         public static readonly DependencyProperty SetTextProperty = DependencyProperty.Register("BorderBrush", typeof(Brush), typeof(SquareView));
-        protected override void OnRenderSizeChanged(SizeChangedInfo sizeInfo)
+        protected override void OnRenderSizeChanged(SizeChangedInfo sizeInfo) // Cập nhật kích thước ô grid khi SquareView bị thay đổi
         {
             base.OnRenderSizeChanged(sizeInfo);
             var minNewSizeOfParentUserControl = Math.Min(sizeInfo.NewSize.Height, sizeInfo.NewSize.Width);

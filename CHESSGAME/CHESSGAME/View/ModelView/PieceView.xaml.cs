@@ -9,7 +9,7 @@ namespace CHESSGAME.View.ModelView
     /// <summary>
     ///     Interaction logic for PieceView.xaml
     /// </summary>
-    public partial class PieceView
+    public partial class PieceView // lớp đại diện cho một quân cờ trong bàn cờ
     {
         private Piece _piece;
 
@@ -22,41 +22,34 @@ namespace CHESSGAME.View.ModelView
         public Piece Piece
         {
             get { return _piece; }
-            set
+            set // Cập nhật quân cờ và thay đổi hình ảnh hiển thị dựa trên loại và màu sắc của quân cờ
             {
                 _piece = value;
                 switch (Piece.Type)
                 {
                     case Type.Bishop:
-                        Image.Source =
-                            (Piece.Color == Color.Black ? FindResource("BlackBishop") : FindResource("WhiteBishop")) as
-                                ImageSource;
+                        Image.Source = (Piece.Color == Color.Black ? FindResource("BlackBishop") : FindResource("WhiteBishop")) as ImageSource;
                         break;
+
                     case Type.King:
-                        Image.Source =
-                            (Piece.Color == Color.Black ? FindResource("BlackKing") : FindResource("WhiteKing")) as
-                                ImageSource;
+                        Image.Source = (Piece.Color == Color.Black ? FindResource("BlackKing") : FindResource("WhiteKing")) as ImageSource;
                         break;
+
                     case Type.Queen:
-                        Image.Source =
-                            (Piece.Color == Color.Black ? FindResource("BlackQueen") : FindResource("WhiteQueen")) as
-                                ImageSource;
+                        Image.Source = (Piece.Color == Color.Black ? FindResource("BlackQueen") : FindResource("WhiteQueen")) as ImageSource;
                         break;
+
                     case Type.Pawn:
-                        Image.Source =
-                            (Piece.Color == Color.Black ? FindResource("BlackPawn") : FindResource("WhitePawn")) as
-                                ImageSource;
+                        Image.Source = (Piece.Color == Color.Black ? FindResource("BlackPawn") : FindResource("WhitePawn")) as ImageSource;
                         break;
                     case Type.Knight:
-                        Image.Source =
-                            (Piece.Color == Color.Black ? FindResource("BlackKnight") : FindResource("WhiteKnight")) as
-                                ImageSource;
+                        Image.Source = (Piece.Color == Color.Black ? FindResource("BlackKnight") : FindResource("WhiteKnight")) as ImageSource;
                         break;
+
                     case Type.Rook:
-                        Image.Source =
-                            (Piece.Color == Color.Black ? FindResource("BlackRook") : FindResource("WhiteRook")) as
-                                ImageSource;
+                        Image.Source = (Piece.Color == Color.Black ? FindResource("BlackRook") : FindResource("WhiteRook")) as ImageSource;
                         break;
+
                     default:
                         throw new ArgumentOutOfRangeException();
                 }

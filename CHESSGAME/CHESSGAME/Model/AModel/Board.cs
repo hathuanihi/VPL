@@ -59,7 +59,6 @@ namespace CHESSGAME.Model.AModel
 
         private void EightByEightInit()
         {
-            //Pions noirs
             for (int i = 0; i < Size; i++)
                 Squares[i, 1].Piece = new Pawn(Color.Black, Squares[i, 1]);
 
@@ -72,7 +71,6 @@ namespace CHESSGAME.Model.AModel
             Squares[6, 0].Piece = new Knight(Color.Black, Squares[6, 0]);
             Squares[7, 0].Piece = new Rook(Color.Black, Squares[7, 0]);
 
-            //Pions blancs
             for (int i = 0; i < Size; i++)
                 Squares[i, 6].Piece = new Pawn(Color.White, Squares[i, 6]);
 

@@ -107,7 +107,7 @@
             <RowDefinition />
         </Grid.RowDefinitions>
         <Menu Grid.Row="0">
-            <MenuItem Header="_File">
+            <MenuItem Header="_Files">
                 <MenuItem Header="_Quit" Name="MenuItemQuit" Click="MenuItemQuit_OnClick" />
             </MenuItem>
             

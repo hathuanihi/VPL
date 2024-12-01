@@ -7,22 +7,23 @@ namespace CHESSGAME.View.ModelView
     /// <summary>
     ///     Interaction logic for SquareView.xaml
     /// </summary>
-    public partial class SquareView : UserControl
+    public partial class SquareView : UserControl // Lớp đại diện cho ô cờ trong bàn cờ
     {
-        public SquareView(Square square)
+        public SquareView(Square square) 
         {
             InitializeComponent();
             Square = square;
             DataContext = this;
-            Square.PropertyChanged += SquarePropertyChangeHandler;
+            Square.PropertyChanged += SquarePropertyChangeHandler; // Sự kiện theo dõi các thay đổi trong thuộc tính của Square
 
+            // Nếu ô chứa quân cờ
             if (square.Piece != null)
                 PieceView = new PieceView(square.Piece);
 
+            // Thiết lập màu nền cho ô (đen/trắng)
+            SetResourceReference(BackgroundProperty, (square.X + square.Y) % 2 == 0 ? "AccentColorBrush" : "AccentColorBrush4");
 
-            SetResourceReference(BackgroundProperty,
-                (square.X + square.Y) % 2 == 0 ? "AccentColorBrush" : "AccentColorBrush4");
-
+            // Đặt vị trí của ô trong grid dựa trên tọa độ X, Y
             Grid.SetColumn(this, square.X);
             Grid.SetRow(this, square.Y);
         }
