@@ -21,12 +21,12 @@ namespace CHESSGAME.View.Window
             _mainWindow = mw;
         }
 
-        private void CreateNewGameButton_OnClick(object sender, RoutedEventArgs e)
+        private void CreateNewGameButton_OnClick(object sender, RoutedEventArgs e) // Xử lý sự kiện click vào nút tạo ván game mới
         {
             _mainWindow.MainControl.Content = new GameModeSelection(new Container(), _mainWindow);
         }
 
-        private void UseSaveButton_OnClick(object sender, RoutedEventArgs e)
+        private void UseSaveButton_OnClick(object sender, RoutedEventArgs e) // Xử lý sự kiện click vào nút tải ván game cũ
         {
             ILoader loader = new BinaryLoader();
 

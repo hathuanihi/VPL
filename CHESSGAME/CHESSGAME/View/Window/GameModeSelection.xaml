@@ -31,7 +31,7 @@
                    Foreground="{DynamicResource BlackBrush}"
                    FontFamily="Segoe UI"
                    FontSize="30"
-                   FontWeight="Light"
+                   FontWeight="Bold"
                    Margin="20"
                    Text="Select Game Mode" />
         
@@ -41,10 +41,11 @@
                    HorizontalAlignment="Center"
                    VerticalAlignment="Top">
             <controls:Tile Title="Local"
+                           FontWeight="Bold"
                            Name="LocalGameButton"
                            Margin="3"
                            Style="{StaticResource LargeTileStyle}"
-                           Background="Teal"
+                           Background="{DynamicResource AccentColorBrush}"
                            controls:ControlsHelper.MouseOverBorderBrush="{DynamicResource BlackBrush}"
                            HorizontalTitleAlignment="Center"
                            Click="LocalGameButton_OnClick">
@@ -54,10 +55,11 @@
             </controls:Tile>
             
             <controls:Tile Title="AI"
+                           FontWeight="Bold"
                            Margin="3"
                            Style="{StaticResource LargeTileStyle}"
                            controls:ControlsHelper.MouseOverBorderBrush="{DynamicResource BlackBrush}"
-                           Background="#D2691E"
+                           Background="{DynamicResource AccentColorBrush}"
                            HorizontalTitleAlignment="Center"
                            Click="TileAiPlay_OnClick">
                 <iconPacks:PackIconMaterial Width="40"

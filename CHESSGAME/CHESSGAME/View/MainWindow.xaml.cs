@@ -24,34 +24,31 @@ namespace CHESSGAME
         {
             InitializeComponent();
             DataContext = this;
-            ItemSource =
-                ThemeManager.Accents.Select(
-                        a =>
-                            new AccentColorMenuData
-                            {
+            ItemSource = ThemeManager.Accents.Select(
+                        a => new AccentColorMenuData
+                             {
                                 Name = a.Name,
                                 ColorBrush = a.Resources["AccentColorBrush"] as Brush
-                            })
-                    .ToList();
+                             }).ToList();
         }
 
-        public List<AccentColorMenuData> ItemSource { get; set; }
+        public List<AccentColorMenuData> ItemSource { get; set; } // Danh sách chứa các màu sắc chủ đề để sử dụng trong giao diện người dùng
 
 
-        private void MenuItemQuit_OnClick(object sender, RoutedEventArgs e)
+        private void MenuItemQuit_OnClick(object sender, RoutedEventArgs e) // Xử lý sự kiện Quit
         {
             Application.Current.Shutdown();
         }
 
-        protected override void OnClosing(CancelEventArgs e)
+        protected override void OnClosing(CancelEventArgs e) // Phương thức được gọi khi cửa sổ chính đang đóng
         {
             base.OnClosing(e);
-            //TODO has to do with the logger
+
             if (File.Exists("log.temp"))
                 File.Delete("log.temp");
         }
 
-        private void MainWindow_OnLoaded(object sender, RoutedEventArgs e)
+        private void MainWindow_OnLoaded(object sender, RoutedEventArgs e) // Xử lý sự kiện khi tải cửa sổ
         {
             if (Environment.GetCommandLineArgs().Length != 1)
             {
@@ -64,8 +61,7 @@ namespace CHESSGAME
                 }
                 catch (Exception)
                 {
-                    this.ShowMessageAsync("Impossible de lire le fichier selectionner",
-                        Environment.GetCommandLineArgs()[1]);
+                    this.ShowMessageAsync("Impossible to read selected file.", Environment.GetCommandLineArgs()[1]);
                 }
 
                 if (container != null)
@@ -79,7 +75,7 @@ namespace CHESSGAME
     }
 }
 
-public class AccentColorMenuData
+public class AccentColorMenuData // Lớp này đại diện cho một màu sắc chủ đề, chứa tên, màu sắc viền và màu sắc chính
 {
     private ICommand _changeAccentCommand;
     public string Name { get; set; }

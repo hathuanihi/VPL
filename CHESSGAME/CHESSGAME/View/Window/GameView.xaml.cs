@@ -12,7 +12,7 @@ namespace CHESSGAME.View.Window
     /// <summary>
     ///     Interaction logic for GameView.xaml
     /// </summary>
-    public partial class GameView
+    public partial class GameView // Lớp đại diện giao diện màn hình chờ
     {
         private BoardView _boardView;
         private MainWindow _mainWindow;

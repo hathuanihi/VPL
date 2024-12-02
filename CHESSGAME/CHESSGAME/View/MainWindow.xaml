@@ -113,7 +113,7 @@
             
             <MenuItem Header="_Options">
                 <MenuItem Header="_Theme">
-                    <MenuItem Header="_Colours" ItemsSource="{Binding ItemSource, Mode=OneWay}"
+                    <MenuItem Header="_Colors" ItemsSource="{Binding ItemSource, Mode=OneWay}"
                               ItemContainerStyle="{StaticResource AccentColorMenuItemStyle}" />
                 </MenuItem>
 
