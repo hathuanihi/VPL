@@ -12,7 +12,7 @@ namespace CHESSGAME.View.Window
     /// <summary>
     ///     Interaction logic for GameView.xaml
     /// </summary>
-    public partial class GameView // Lớp đại diện giao diện màn hình chờ
+    public partial class GameView 
     {
         private BoardView _boardView;
         private MainWindow _mainWindow;
@@ -30,6 +30,7 @@ namespace CHESSGAME.View.Window
             {
                 switch (state)
                 {
+                    // Các trạng thái kết thúc ván đấu
                     case BoardState.BlackCheckMate:
                         _mainWindow.ShowMessageAsync("End of the game", "The black player is checkmate.",
                             MessageDialogStyle.AffirmativeAndNegative);
@@ -49,6 +50,7 @@ namespace CHESSGAME.View.Window
                 }
             };
 
+            // Gọi thanh UC chứa save, quit
             GameViewFlyout gameViewFlyout = new GameViewFlyout(this);
             _mainWindow.Flyout.Content = gameViewFlyout.Content;
             UcBoardView.Content = boardView;

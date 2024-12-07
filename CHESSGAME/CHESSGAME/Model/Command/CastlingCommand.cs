@@ -16,16 +16,13 @@ namespace CHESSGAME.Model.Command
         {
             Move = move;
 
-            bool isLeftCastling = move.TargetCoordinate.X < move.StartCoordinate.X;
+            bool isLeftCastling = move.TargetCoordinate.X < move.StartCoordinate.X; // Trả về true nếu nhập thành trái
 
-            _kingCommand =
-                new MoveCommand(
-                    new Move(board.PieceAt(move.StartCoordinate),
-                        board.Squares[isLeftCastling ? 2 : 6, move.StartCoordinate.Y]), board);
-            _rookCommand =
-                new MoveCommand(
-                    new Move(board.PieceAt(new Coordinate(isLeftCastling ? 0 : 7, move.StartCoordinate.Y)),
-                        board.Squares[isLeftCastling ? 3 : 5, move.TargetCoordinate.Y]), board);
+            // Tiến hành nhập thành
+            _kingCommand = new MoveCommand(new Move(board.PieceAt(move.StartCoordinate),
+                                           board.Squares[isLeftCastling ? 2 : 6, move.StartCoordinate.Y]), board);
+            _rookCommand = new MoveCommand(new Move(board.PieceAt(new Coordinate(isLeftCastling ? 0 : 7, move.StartCoordinate.Y)),
+                                           board.Squares[isLeftCastling ? 3 : 5, move.TargetCoordinate.Y]), board);
         }
 
         private CastlingCommand(CastlingCommand command, Board board)
@@ -36,21 +33,21 @@ namespace CHESSGAME.Model.Command
             _kingCommand = command._kingCommand.Copy(board);
         }
 
-        public void Execute()
+        public void Execute() // Thực thi
         {
             _rookCommand.Execute();
             _kingCommand.Execute();
         }
 
-        public void Compensate()
+        public void Compensate() // Hoàn tác nước đi
         {
             _kingCommand.Compensate();
             _rookCommand.Compensate();
         }
 
-        public bool TakePiece => false;
+        public bool TakePiece => false; // Nhập thành không bắt quân nào
 
-        public Move Move { get; }
+        public Move Move { get; } // Đại diện cho nước đi nhập thành
 
         public Type PieceType => Move.PieceType;
 

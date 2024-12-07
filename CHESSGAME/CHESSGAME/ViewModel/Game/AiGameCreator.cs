@@ -15,7 +15,7 @@ namespace CHESSGAME.ViewModel.Game
         {
             IEngine engine = new RealEngine(container);
             PlayerControler whitePlayerControler = new BoardViewPlayerController(boardView);
-            PlayerControler blackPlayerControler = new UciProcessController(container, parameters.AiSearchType, parameters.AiSkillLevel, parameters.AiSearchValue);
+            PlayerControler blackPlayerControler = new UciProcessController(container, parameters.AiSkillLevel);
             Player whitePlayer = new Player(Color.White, whitePlayerControler);
             Player blackPlayer = new Player(Color.Black, blackPlayerControler);
 
@@ -28,9 +28,6 @@ namespace CHESSGAME.ViewModel.Game
             blackPlayerControler.Player = blackPlayer;
 
             boardView.BoardViewPlayerControllers.Add((BoardViewPlayerController)whitePlayerControler);
-
-            //TODO Remvoe the logger
-            //SMTPLogger smtpLogger = new SMTPLogger(game);
             return game;
         }
     }

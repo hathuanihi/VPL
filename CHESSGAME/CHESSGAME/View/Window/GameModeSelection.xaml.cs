@@ -21,12 +21,12 @@ namespace CHESSGAME.View.Window
             _container = container;
         }
 
-        private void TileAiPlay_OnClick(object sender, RoutedEventArgs e)
+        private void TileAiPlay_OnClick(object sender, RoutedEventArgs e) // Xử lý sự kiện chơi với máy
         {
             _mainWindow.MainControl.Content = new AiOptionSelection(_mainWindow, _container);
         }
 
-        private void LocalGameButton_OnClick(object sender, RoutedEventArgs e)
+        private void LocalGameButton_OnClick(object sender, RoutedEventArgs e) // Xử lý sự kiện chơi hai người
         {
             GameFactory gameFactory = new GameFactory();
             BoardView boardView = new BoardView(_container);

@@ -8,23 +8,23 @@ namespace CHESSGAME.Model.Command
     [Serializable]
     public class EnPassantCommand : ICompensableCommand
     {
-        private ICompensableCommand _firstMove;
-        private ICompensableCommand _secondMove;
+        private ICompensableCommand _firstMove; // Xử lý di chuyển tốt từ vị trí ban đầu sang ô trung gian
+        private ICompensableCommand _secondMove; // Xử lý di chuyển tốt từ ô trung gian sang ô mục tiêu, loại bỏ quân tốt bị bắt
 
 
         public EnPassantCommand(Move move, Board board)
         {
             Move = move;
 
-            bool isWhite = move.PieceColor == Color.White;
-            bool isLeft = move.StartCoordinate.X > move.TargetCoordinate.X;
+            bool isWhite = move.PieceColor == Color.White; // Trả về true nếu tốt đang di chuyển là trắng
+            bool isLeft = move.StartCoordinate.X > move.TargetCoordinate.X; // Trả về true nếu tốt di chuyển sang trái
 
             int x = move.StartCoordinate.X + (isLeft ? -1 : 1);
             int y = move.StartCoordinate.Y;
 
-            Square startSquare = board.SquareAt(move.StartCoordinate);
-            Square secondSquare = board.Squares[x, y];
-            Square thirdSquare = board.Squares[x, y + (isWhite ? -1 : 1)];
+            Square startSquare = board.SquareAt(move.StartCoordinate); // Ô mà tốt đang đứng đầu
+            Square secondSquare = board.Squares[x, y]; // Ô mà tốt sẽ di chuyển đến
+            Square thirdSquare = board.Squares[x, y + (isWhite ? -1 : 1)]; // Nơi bắt quân
 
             _firstMove = new MoveCommand(new Move(startSquare, secondSquare, Move.PieceType, Move.PieceColor), board);
             _secondMove = new MoveCommand(new Move(secondSquare, thirdSquare, Move.PieceType, Move.PieceColor), board);
@@ -37,19 +37,19 @@ namespace CHESSGAME.Model.Command
             _secondMove = command._secondMove.Copy(board);
         }
 
-        public void Execute()
+        public void Execute() // Thực thi
         {
             _firstMove.Execute();
             _secondMove.Execute();
         }
 
-        public void Compensate()
+        public void Compensate() // Hoàn tác
         {
             _secondMove.Compensate();
             _firstMove.Compensate();
         }
 
-        public bool TakePiece => true;
+        public bool TakePiece => true; // Trả về true vì thực hiện bắt quân
 
         public Move Move { get; }
 

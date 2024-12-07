@@ -51,22 +51,24 @@ namespace CHESSGAME.ViewModel.Engine
         /// <returns>True if the move was valid and therefore has been done</returns>
         public bool DoMove(Move move)
         {
-            //No reason to move if it's the same square
+            //Kiểm tra nếu người chơi chọn cùng một ô
             if (move.StartCoordinate == move.TargetCoordinate) return false;
 
             Piece piece = Board.PieceAt(move.StartCoordinate);
             Piece targetPiece = Board.PieceAt(move.TargetCoordinate);
 
-            //TODO gérer exception
+            //Xử lý ngoại lệ
             if (_ruleGroups.Handle(move, Board))
             {
                 ICompensableCommand command;
-                if ((move.PieceType == Type.King) &&
-                    (((targetPiece?.Type == Type.Rook) && (move.PieceColor == targetPiece.Color))
-                     || (Math.Abs(move.TargetCoordinate.X - move.StartCoordinate.X) == 2)))
+                if ((move.PieceType == Type.King) 
+                   && (((targetPiece?.Type == Type.Rook) 
+                   && (move.PieceColor == targetPiece.Color))
+                   || (Math.Abs(move.TargetCoordinate.X - move.StartCoordinate.X) == 2)))
                     command = new CastlingCommand(move, Board);
-                else if ((move.PieceType == Type.Pawn) && (targetPiece == null) &&
-                         (move.StartCoordinate.X != move.TargetCoordinate.X))
+                else if ((move.PieceType == Type.Pawn) 
+                   && (targetPiece == null) 
+                   && (move.StartCoordinate.X != move.TargetCoordinate.X))
                     command = new EnPassantCommand(move, Board);
                 else if ((move.PieceType == Type.Pawn) &&
                          (move.TargetCoordinate.Y == (move.PieceColor == Color.White ? 0 : 7)))

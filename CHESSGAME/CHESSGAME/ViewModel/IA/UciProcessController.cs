@@ -39,17 +39,15 @@ namespace CHESSGAME.ViewModel.IA
             while (output != "uciok")
             {
                 output = _uciProcess.StandardOutput.ReadLine();
-                Console.WriteLine(output);
             }
             _uciProcess.StandardInput.WriteLine("ucinewgame");
-            Console.WriteLine("ucinewgame");
             _uciProcess.StandardInput.WriteLine("setoption name Threads value {0}", Environment.ProcessorCount);
         }
 
-        public UciProcessController(Container container, string searchType, int skillLevel, int searchValue)
+        public UciProcessController(Container container, int skillLevel)
         {
             _container = container;
-            search = "go " + searchType + " " + searchValue;
+            search = "go movetime 1" ;
 
             _uciProcess = new Process
             {
@@ -71,10 +69,8 @@ namespace CHESSGAME.ViewModel.IA
             while (output != "uciok")
             {
                 output = _uciProcess.StandardOutput.ReadLine();
-                Console.WriteLine(output);
             }
             _uciProcess.StandardInput.WriteLine("ucinewgame");
-            Console.WriteLine("ucinewgame");
             _uciProcess.StandardInput.WriteLine("setoption name Threads value {0}", Environment.ProcessorCount);
             _uciProcess.StandardInput.WriteLine("setoption name Skill Level value {0}", skillLevel);
 
@@ -97,8 +93,6 @@ namespace CHESSGAME.ViewModel.IA
             while ((input == null) || !input.Contains("bestmove"))
             {
                 input = await _uciProcess.StandardOutput.ReadLineAsync();
-                if (input != null)
-                    Console.WriteLine(input);
             }
 
             if (!input.Contains("(none)"))

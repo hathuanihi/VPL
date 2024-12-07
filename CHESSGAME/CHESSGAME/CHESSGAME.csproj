@@ -220,7 +220,6 @@
     <Compile Include="Model\Command\CastlingCommand.cs" />
     <Compile Include="Model\Command\CompensableConversation.cs" />
     <Compile Include="Model\Command\EnPassantCommand.cs" />
-    <Compile Include="Model\Command\HistoryViewConversation.cs" />
     <Compile Include="Model\Command\ICompensableCommand.cs" />
     <Compile Include="Model\Command\ICompensableConversation.cs" />
     <Compile Include="Model\Command\MoveCommand.cs" />

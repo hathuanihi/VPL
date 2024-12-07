@@ -21,16 +21,9 @@ namespace CHESSGAME.Model.AModel.Pieces
         public Color Color { get; }
         public Square Square { get; set; }
 
-        /// <summary>
-        ///     HasMoved
-        /// </summary>
-        /// <value>
-        ///     Return true if the piece has already moved
-        /// </value>
-        public bool HasMoved { get; set; } = false;
+        public bool HasMoved { get; set; } = false; // kiểm tra nếu quân cờ đã được di chuyển
 
         public Type Type { get; set; }
-
 
         public abstract Piece Clone(Square square);
     }

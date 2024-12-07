@@ -6,22 +6,13 @@ using CHESSGAME.Model.Command;
 
 namespace CHESSGAME.Model.AModel
 {
-    /// <summary>
-    ///     Contains the model for a chess game
-    /// </summary>
     [Serializable]
     public class Container
     {
-        /// <summary>
-        ///     Container constructor
-        /// </summary>
-        /// <remarks>
-        ///     Use to create a new game
-        /// </remarks>
         public Container()
         {
-            Board = new Board();
-            Moves = new ObservableCollection<ICompensableCommand>();
+            Board = new Board(); // Bàn cờ
+            Moves = new ObservableCollection<ICompensableCommand>(); // Danh sách các nước đi
             Moves.CollectionChanged += (sender, args) =>
             {
                 switch (args.Action)
@@ -59,21 +50,12 @@ namespace CHESSGAME.Model.AModel
                 }
             };
         }
-        /// <summary>
-        ///     The game board
-        /// </summary>
         public Board Board { get; }
-
-        /// <summary>
-        ///     The list of moves that has been done
-        /// </summary>
         public ObservableCollection<ICompensableCommand> Moves { get; }
 
         public int HalfMoveSinceLastCapture { get; set; } = 0;
 
-
         public delegate void MoveHandler(Move move);
-
         protected void OnMoveDone(Move move) => MoveDone?.Invoke(move);
         public event MoveHandler MoveDone;
 

@@ -11,17 +11,15 @@ namespace CHESSGAME.Model.AModel
             Size = size;
 
             Squares = new Square[Size, Size];
+
+            // Khởi tạo bàn cờ 
             for (int i = 0; i < Size; i++)
                 for (int j = 0; j < Size; j++)
                     Squares[i, j] = new Square(this, i, j);
 
-            EightByEightInit();
+            EightByEightInit(); // Vị trí các quân cờ khi bắt đầu
         }
 
-        /// <summary>
-        ///     Copy constructor
-        /// </summary>
-        /// <param name="board">Board to copy</param>
         public Board(Board board)
         {
             Size = board.Size;
@@ -40,19 +38,11 @@ namespace CHESSGAME.Model.AModel
         public Square[,] Squares { get; }
 
         #region ConvenienceGetters
-
-        /// <summary>
-        /// </summary>
-        /// <param name="coordinate">Coordinate of the square</param>
-        /// <returns>The square at the coordinate</returns>
+        // Tọa độ của ô vuông
         public Square SquareAt(Coordinate coordinate) => Squares[coordinate.X, coordinate.Y];
-
-        /// <summary>
-        /// </summary>
-        /// <param name="coordinate">Coordinate of the square</param>
-        /// <returns>The piece at the coordinate</returns>
+        
+        // Tọa độ quân cờ
         public Piece PieceAt(Coordinate coordinate) => SquareAt(coordinate).Piece;
-
         #endregion
 
         #region BoardInits
@@ -91,7 +81,6 @@ namespace CHESSGAME.Model.AModel
             Squares[2, 5].Piece = new Rook(Color.White, Squares[2, 5]);
             Squares[3, 5].Piece = new Rook(Color.White, Squares[3, 5]);
         }
-
         #endregion
     }
 }

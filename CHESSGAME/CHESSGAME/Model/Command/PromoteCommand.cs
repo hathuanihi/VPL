@@ -10,12 +10,13 @@ namespace CHESSGAME.Model.Command
     {
         private Board _board;
         private ICompensableCommand _moveCommand;
-        private Piece _oldPawn;
+        private Piece _oldPawn; // Lưu trữ tốt ban đầu để phục vụ hoàn tác
 
         public PromoteCommand(Move move, Board board)
         {
+            // Ném ngoại lệ vì phong cấp yêu cầu xác định loại quân muốn thay thế
             if (move?.PromotePieceType == null)
-                throw new NullReferenceException("Can't build a promote command with null Move.PromotedPieceType");
+                throw new NullReferenceException("Can't build a promote command!");
             _board = board;
             Move = move;
 
@@ -31,7 +32,7 @@ namespace CHESSGAME.Model.Command
             _oldPawn = board.PieceAt(Move.StartCoordinate);
         }
 
-        public void Execute()
+        public void Execute() // Thực thi
         {
             _moveCommand.Execute();
 
@@ -63,13 +64,13 @@ namespace CHESSGAME.Model.Command
             square.Piece = piece;
         }
 
-        public void Compensate()
+        public void Compensate() // Hoàn tác
         {
             _board.SquareAt(Move.TargetCoordinate).Piece = _oldPawn;
             _moveCommand.Compensate();
         }
 
-        public bool TakePiece => _moveCommand.TakePiece;
+        public bool TakePiece => _moveCommand.TakePiece; 
 
         public Move Move { get; }
 

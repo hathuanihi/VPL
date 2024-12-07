@@ -3,10 +3,6 @@ using System.Collections.ObjectModel;
 
 namespace CHESSGAME.Model.Command
 {
-    /// <summary>
-    ///     Conversation keeping track of commands,
-    ///     making it able to undo and redo commands
-    /// </summary>
     public class CompensableConversation : ICompensableConversation
     {
         private ObservableCollection<ICompensableCommand> _moveList;
@@ -19,22 +15,12 @@ namespace CHESSGAME.Model.Command
             foreach (ICompensableCommand command in _moveList)
                 _undoCommands.Push(command);
         }
-
-        /// <summary>
-        ///     Executes a command
-        /// </summary>
-        /// <param name="command">The command to execute</param>
         public void Execute(ICompensableCommand command)
         {
             command.Execute();
             _undoCommands.Push(command);
             _redoCommands.Clear();
         }
-
-        /// <summary>
-        ///     Undo the last command that has been done
-        /// </summary>
-        /// <returns>The last command, null if there is none</returns>
         public ICompensableCommand Undo()
         {
             if (_undoCommands.Count == 0) return null;
@@ -45,11 +31,6 @@ namespace CHESSGAME.Model.Command
 
             return command;
         }
-
-        /// <summary>
-        ///     Redo the last command that has been undone
-        /// </summary>
-        /// <returns>The last command, null if there is none</returns>
         public ICompensableCommand Redo()
         {
             if (_redoCommands.Count == 0) return null;

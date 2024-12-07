@@ -5,9 +5,6 @@ using Type = CHESSGAME.Model.AModel.Pieces.Type;
 
 namespace CHESSGAME.Model.Command
 {
-    /// <summary>
-    ///     Represents a Move to execute on the model
-    /// </summary>
     [Serializable]
     public class MoveCommand : ICompensableCommand
     {
@@ -18,13 +15,6 @@ namespace CHESSGAME.Model.Command
         private Piece _removedPiece;
         private Square _startSquare;
         private Square _targetSquare;
-
-
-        /// <summary>
-        ///     MoveCommand constructor
-        /// </summary>
-        /// <param name="move">The move to do</param>
-        /// <param name="board">The board the command executes on</param>
         public MoveCommand(Move move, Board board)
         {
             Move = move;
@@ -41,30 +31,26 @@ namespace CHESSGAME.Model.Command
             TakePiece = board.PieceAt(Move.TargetCoordinate) != null;
         }
 
-        /// <summary>
-        ///     Execute the move on the Board
-        /// </summary>
         public void Execute()
         {
             _targetSquare = _board.SquareAt(Move.TargetCoordinate);
             _startSquare = _board.SquareAt(Move.StartCoordinate);
             _piece = _startSquare.Piece;
 
-            //Has moved update
+            // Đánh dấu trạng thái đã di chuyển
             if (!_piece.HasMoved)
             {
                 _piece.HasMoved = true;
                 _hasChangedState = true;
             }
 
-            //Square is empty of piece
+            // Đánh dấu ô đang trống 
             if (_targetSquare.Piece == null)
             {
                 _startSquare.Piece = null;
                 _piece.Square = _targetSquare;
                 _targetSquare.Piece = _piece;
             }
-            //There is a taken piece
             else
             {
                 _removedPiece = _targetSquare.Piece;
@@ -74,10 +60,6 @@ namespace CHESSGAME.Model.Command
                 _targetSquare.Piece = _piece;
             }
         }
-
-        /// <summary>
-        ///     Undo the move
-        /// </summary>
         public void Compensate()
         {
             if (_hasChangedState) _piece.HasMoved = false;
