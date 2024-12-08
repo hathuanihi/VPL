@@ -10,11 +10,11 @@ namespace CHESSGAME.ViewModel.Engine.RuleManager
 {
     public abstract class RuleGroup
     {
-        public RuleGroup Next { get; internal set; }
-        protected List<IRule> Rules { get; set; } = new List<IRule>();
+        public RuleGroup Next { get; internal set; } // Nhóm quy tắc tiếp theo trong chuỗi
+        protected List<IRule> Rules { get; set; } = new List<IRule>(); // Danh sách các quy tắc của một quân cờ
         protected abstract Type Type { get; }
 
-        public void AddGroup(RuleGroup ruleGroup)
+        public void AddGroup(RuleGroup ruleGroup) // Thêm một nhóm quy tắc vào cuối chuỗi hiện tại
         {
             if (Next == null)
                 Next = ruleGroup;
@@ -22,11 +22,14 @@ namespace CHESSGAME.ViewModel.Engine.RuleManager
                 Next.AddGroup(ruleGroup);
         }
 
-        public bool Handle(Move move, Board board)
+        public bool Handle(Move move, Board board) // Kiểm tra tính hợp lệ của nước đi
         {
-            if (move.PieceType == Type) return Rules.All(rule => rule.IsMoveValid(move, board));
-            if (Next != null) return Next.Handle(move, board);
-            throw new Exception("NOBODY TREATS THIS PIECE !!! " + move.PieceType);
+            if (move.PieceType == Type) 
+                return Rules.All(rule => rule.IsMoveValid(move, board));
+
+            if (Next != null) // Chuyển sang yêu cầu nhóm quy tắc tiếp theo
+                return Next.Handle(move, board);
+            throw new Exception("Nobody treats this piece! " + move.PieceType);
         }
 
         public List<Square> PossibleMoves(Piece piece)
@@ -39,7 +42,7 @@ namespace CHESSGAME.ViewModel.Engine.RuleManager
                 return result;
             }
             if (Next != null) return Next.PossibleMoves(piece);
-            throw new Exception("NOBODY TREATS THIS PIECE !!! " + piece);
+            throw new Exception("Nobody treats this piece! " + piece);
         }
     }
 }

@@ -15,9 +15,7 @@ namespace CHESSGAME.ViewModel.Engine.Rules
 
         public List<Square> PossibleMoves(Piece piece)
         {
-            return _bishopRule.PossibleMoves(piece)
-                .Concat(_rookRule.PossibleMoves(piece))
-                .ToList();
+            return _bishopRule.PossibleMoves(piece).Concat(_rookRule.PossibleMoves(piece)).ToList();
         }
     }
 }

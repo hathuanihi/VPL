@@ -231,7 +231,7 @@
     <Compile Include="Model\Utility\FenTranslator.cs" />
     <Compile Include="ViewModel\Core\Game.cs" />
     <Compile Include="ViewModel\Core\Player.cs" />
-    <Compile Include="ViewModel\Core\PlayerControler.cs" />
+    <Compile Include="ViewModel\Core\PlayerController.cs" />
     <Compile Include="ViewModel\Engine\IEngine.cs" />
     <Compile Include="ViewModel\Engine\RealEngine.cs" />
     <Compile Include="ViewModel\Engine\RuleManager\BishopRuleGroup.cs" />
@@ -242,8 +242,8 @@
     <Compile Include="ViewModel\Engine\RuleManager\RookRuleGroup.cs" />
     <Compile Include="ViewModel\Engine\RuleManager\RuleGroup.cs" />
     <Compile Include="ViewModel\Engine\Rules\BishopMovementRule.cs" />
-    <Compile Include="ViewModel\Engine\Rules\CanOnlyTakeEnnemyRule.cs" />
-    <Compile Include="ViewModel\Engine\Rules\CanOnlyTakeEnnemyRuleKing.cs" />
+    <Compile Include="ViewModel\Engine\Rules\CanOnlyTakeEnemyRule.cs" />
+    <Compile Include="ViewModel\Engine\Rules\CanOnlyTakeEnemyRuleKing.cs" />
     <Compile Include="ViewModel\Engine\Rules\CastlingRule.cs" />
     <Compile Include="ViewModel\Engine\Rules\IRule.cs" />
     <Compile Include="ViewModel\Engine\Rules\KingMovementRule.cs" />
@@ -261,7 +261,7 @@
     <Compile Include="ViewModel\Game\GameCreatorParameters.cs" />
     <Compile Include="ViewModel\Game\GameFactory.cs" />
     <Compile Include="ViewModel\Game\LocalGameCreator.cs" />
-    <Compile Include="ViewModel\IA\UciProcessController.cs" />
+    <Compile Include="ViewModel\AI\UciProcessController.cs" />
     <Compile Include="View\FlyoutContent\GameViewFlyout.xaml.cs">
       <DependentUpon>GameViewFlyout.xaml</DependentUpon>
     </Compile>

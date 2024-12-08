@@ -8,10 +8,9 @@ namespace CHESSGAME.ViewModel.Engine.RuleManager
         public PawnRuleGroup()
         {
             Rules.Add(new PawnMovementRule());
-            Rules.Add(new CanOnlyTakeEnnemyRule());
+            Rules.Add(new CanOnlyTakeEnemyRule());
             Rules.Add(new WillNotMakeCheck());
         }
-
         protected override Type Type => Type.Pawn;
     }
 }

@@ -16,10 +16,8 @@ namespace CHESSGAME.ViewModel.Engine.Rules
 
         public List<Square> PossibleMoves(Piece piece)
         {
-            return
-                piece.Square.Board.Squares.OfType<Square>()
-                    .ToList()
-                    .FindAll(x => IsMoveValid(new Move(piece, x), piece.Square.Board));
+            return piece.Square.Board.Squares.OfType<Square>().ToList().FindAll(
+                x => IsMoveValid(new Move(piece, x), piece.Square.Board));
         }
     }
 }

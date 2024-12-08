@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\ChessGame\\CHESSGAME\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|c:\\users\\anhth\\onedrive\\documents\\ktpm2023.3\\n\u0103m 2\\hk1\\vpl\\\u0111\u1ED3 \u00E1n\\chessgame\\chessgame\\chessgame\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 46,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,18 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClassDiagram1.cd",
-              "DocumentMoniker": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\ChessGame\\CHESSGAME\\CHESSGAME\\ClassDiagram1.cd",
-              "RelativeDocumentMoniker": "CHESSGAME\\ClassDiagram1.cd",
-              "ToolTip": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\ChessGame\\CHESSGAME\\CHESSGAME\\ClassDiagram1.cd",
-              "RelativeToolTip": "CHESSGAME\\ClassDiagram1.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2024-12-07T14:07:34.325Z",
-              "EditorCaption": ""
             }
           ]
         }

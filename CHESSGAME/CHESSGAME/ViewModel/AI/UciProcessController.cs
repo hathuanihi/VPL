@@ -9,7 +9,7 @@ using Type = CHESSGAME.Model.AModel.Pieces.Type;
 
 namespace CHESSGAME.ViewModel.IA
 {
-    public class UciProcessController : PlayerControler
+    public class UciProcessController : PlayerController
     {
         private Container _container;
         private Process _uciProcess;

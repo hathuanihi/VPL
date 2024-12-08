@@ -7,19 +7,18 @@ namespace CHESSGAME.ViewModel.Engine.Rules
 {
     internal class BishopMovementRule : IRule
     {
-        //TODO Refactor (copy/paste)
-        /// <inheritdoc />
         public bool IsMoveValid(Move move, Board board)
             => PossibleMoves(board.PieceAt(move.StartCoordinate)).Contains(board.SquareAt(move.TargetCoordinate));
 
-        /// <inheritdoc />
         public List<Square> PossibleMoves(Piece piece)
         {
+            // Danh sách 4 hướng chéo quân Tượng có thể di chuyển
             List<Square> diagonalUpLeft = new List<Square>();
             List<Square> diagonalUpRight = new List<Square>();
             List<Square> diagonalDownLeft = new List<Square>();
             List<Square> diagonalDownRight = new List<Square>();
 
+            // Các hàm trả về true nếu Tượng có thể di chuyển theo hướng tương ứng
             bool diagonalUpLeftEnd = false;
             bool diagonalUpRightEnd = false;
             bool diagonalDownLeftEnd = false;
@@ -76,10 +75,8 @@ namespace CHESSGAME.ViewModel.Engine.Rules
                 }
             }
 
-            List<Square> possibleSquares = diagonalUpLeft.Concat(diagonalUpRight)
-                .Concat(diagonalDownLeft)
-                .Concat(diagonalDownRight)
-                .ToList();
+            // Danh sách các ô có thể di chuyển
+            List<Square> possibleSquares = diagonalUpLeft.Concat(diagonalUpRight).Concat(diagonalDownLeft).Concat(diagonalDownRight).ToList();
             return possibleSquares;
         }
     }

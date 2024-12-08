@@ -12,17 +12,12 @@ namespace CHESSGAME.ViewModel.Engine
 {
     public class RealEngine : IEngine
     {
-        private Container _container;
-        private CompensableConversation _conversation;
+        private Container _container; // Lưu trữ bàn cờ, nước đi đã thực thiện
+        private CompensableConversation _conversation; // Quản lý undo, redo
         private Pawn _enPassantPawnBlack;
         private Pawn _enPassantPawnWhite;
-        private ObservableCollection<ICompensableCommand> _moves;
-        private RuleGroup _ruleGroups;
-
-        /// <summary>
-        ///     RealEngine constructor
-        /// </summary>
-        /// <param name="container">The model the engine will work with</param>
+        private ObservableCollection<ICompensableCommand> _moves; // Danh sách các lệnh đã thực hiện
+        private RuleGroup _ruleGroups; // Nhóm các quy tắc di chuyển
         public RealEngine(Container container)
         {
             Board = container.Board;
@@ -38,26 +33,15 @@ namespace CHESSGAME.ViewModel.Engine
             _ruleGroups.AddGroup(new QueenRuleGroup());
             _ruleGroups.AddGroup(new RookRuleGroup());
         }
-
-        /// <summary>
-        ///     The board the engine works with
-        /// </summary>
         public Board Board { get; }
-
-        /// <summary>
-        ///     Ask the engine to do a move
-        /// </summary>
-        /// <param name="move">The move to do</param>
-        /// <returns>True if the move was valid and therefore has been done</returns>
-        public bool DoMove(Move move)
+        public bool DoMove(Move move) // Thực hiện nước đi và trả về true nếu hợp lệ
         {
-            //Kiểm tra nếu người chơi chọn cùng một ô
+            // Kiểm tra nếu người chơi chọn cùng một ô
             if (move.StartCoordinate == move.TargetCoordinate) return false;
 
             Piece piece = Board.PieceAt(move.StartCoordinate);
             Piece targetPiece = Board.PieceAt(move.TargetCoordinate);
 
-            //Xử lý ngoại lệ
             if (_ruleGroups.Handle(move, Board))
             {
                 ICompensableCommand command;
@@ -105,14 +89,14 @@ namespace CHESSGAME.ViewModel.Engine
                         _enPassantPawnBlack.EnPassant = true;
                     }
 
-                //Number of moves since last capture
+                // Số lần đi kể từ nước đi ăn quân gần nhất 
                 if (Board.PieceAt(move.TargetCoordinate) == null)
                     _container.HalfMoveSinceLastCapture++;
                 else
                     _container.HalfMoveSinceLastCapture = 0;
 
-                _conversation.Execute(command);
-                _moves.Add(command);
+                _conversation.Execute(command); // Thực thi
+                _moves.Add(command); // Thêm vào danh sách các lệnh đã thực hiện
 
                 return true;
             }
@@ -121,7 +105,7 @@ namespace CHESSGAME.ViewModel.Engine
         }
 
 
-        public BoardState CurrentState()
+        public BoardState CurrentState() // TRạng thái hiện tại của trò chơi
         {
             IState checkState = new CheckState();
             IState patState = new PatState();
@@ -147,11 +131,6 @@ namespace CHESSGAME.ViewModel.Engine
         {
             return _ruleGroups.PossibleMoves(piece);
         }
-
-        /// <summary>
-        ///     Undo the last command that has been done
-        /// </summary>
-        /// <returns>True if anything has been done</returns>
         public Move Undo()
         {
             ICompensableCommand command = _conversation.Undo();
@@ -163,27 +142,23 @@ namespace CHESSGAME.ViewModel.Engine
             {
                 int count = 0;
                 for (int i = _moves.Count - 1; i > 0; i--)
+                {
                     if (!_moves[i].TakePiece)
                         count++;
                     else
                         break;
+                }
                 _container.HalfMoveSinceLastCapture = count;
             }
 
             _moves.Remove(command);
             return command.Move;
         }
-
-        /// <summary>
-        ///     Redo the last command that has been undone
-        /// </summary>
-        /// <returns>True if anything has been done</returns>
         public Move Redo()
         {
             ICompensableCommand command = _conversation.Redo();
             if (command == null) return null;
 
-            //Number of moves since last capture
             if (!command.TakePiece)
                 _container.HalfMoveSinceLastCapture++;
             else

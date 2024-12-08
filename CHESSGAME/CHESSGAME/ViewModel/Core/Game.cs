@@ -8,20 +8,11 @@ namespace CHESSGAME.ViewModel.Core
     public class Game
     {
         private Player _currentPlayer;
-        private readonly bool _canUndoRedo;
+        private readonly bool _canUndoRedo; // Trả về true nếu undo redo có thể thực hiện
         private Player WhitePlayer { get; }
         private Player BlackPlayer { get; }
-        private IEngine Engine { get; }
-        public Container Container { get; set; }
-
-        /// <summary>
-        /// Construct a game with an engine and two players
-        /// </summary>
-        /// <param name="engine">The engin the game will use</param>
-        /// <param name="whitePlayer">White player</param>
-        /// <param name="blackPlayer">Black player</param>
-        /// <param name="container">Model container</param>
-        /// <param name="canUndoRedo"></param>
+        private IEngine Engine { get; } // Xử lý logic trò chơi
+        public Container Container { get; set; } // Chứa thông tin mô hình trò chơi
         public Game(IEngine engine, Player whitePlayer, Player blackPlayer, Container container, bool canUndoRedo)
         {
             _canUndoRedo = canUndoRedo;
@@ -29,25 +20,14 @@ namespace CHESSGAME.ViewModel.Core
             BlackPlayer = blackPlayer;
             Engine = engine;
             Container = container;
-            WhitePlayer.MoveDone += PlayerMoveHandler;
+            WhitePlayer.MoveDone += PlayerMoveHandler; // Sự kiện người chơi thực hiện nước đi
             BlackPlayer.MoveDone += PlayerMoveHandler;
 
-            _currentPlayer = WhitePlayer;
+            _currentPlayer = WhitePlayer; // Lượt đầu tiên luôn là người chơi trắng
             OnBoardStateChanged();
 
             _currentPlayer.Play(null);
         }
-
-        /// <summary>
-        /// Delegate called when a player makes a move.
-        /// </summary>
-        /// <remarks>
-        /// We check if the move is valid and if so we ask the other player to play.
-        /// Otherwise we tell the player that the move is invalid so that he gives us another move.
-        /// We carry out these actions as long as the game is not checkmate or checkmate.
-        /// </remarks>
-        /// <param name="sender"></param>
-        /// <param name="move"></param>
         private void PlayerMoveHandler(Player sender, Move move)
         {
             if (sender != _currentPlayer)
@@ -71,11 +51,6 @@ namespace CHESSGAME.ViewModel.Core
 
         public List<Square> PossibleMoves(Piece piece) => Engine.PossibleMoves(piece);
 
-        #region Undo Redo
-
-        /// <summary>
-        /// Asks the engine to cancel the last move played
-        /// </summary>
         public void Undo()
         {
             if (!_canUndoRedo) return;
@@ -108,10 +83,6 @@ namespace CHESSGAME.ViewModel.Core
             if (lastMove != null)
                 OnBoardStateChanged();
         }
-
-        /// <summary>
-        /// Asks the engine to redo the last canceled stroke
-        /// </summary>
         public void Redo()
         {
             if (!_canUndoRedo) return;
@@ -125,18 +96,8 @@ namespace CHESSGAME.ViewModel.Core
             _currentPlayer.Play(null);
         }
 
-        #endregion
-
-        #region Delegate and Events
-
         public delegate void StateHandler(BoardState state);
-        public event StateHandler StateChanged;
+        public event StateHandler StateChanged; // Trạng thái bàn cờ bị thay đổi
         private void OnBoardStateChanged() => StateChanged?.Invoke(Engine.CurrentState());
-
-        public delegate void PlayerDisconnectedEventHandler(string message);
-        public event PlayerDisconnectedEventHandler PlayerDisconnectedEvent;
-
-        #endregion
-
     }
 }

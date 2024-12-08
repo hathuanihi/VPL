@@ -6,7 +6,7 @@ using CHESSGAME.ViewModel.Core;
 
 namespace CHESSGAME.ViewModel.Game
 {
-    public class BoardViewPlayerController : PlayerControler
+    public class BoardViewPlayerController : PlayerController
     {
         private BoardView _boardView;
 
@@ -31,7 +31,6 @@ namespace CHESSGAME.ViewModel.Game
         public override void InvalidMove(List<string> reasonsList)
         {
             IsPlayable = true;
-            //TODO 
         }
 
         public override List<Square> PossibleMoves(Piece piece)

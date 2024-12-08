@@ -8,10 +8,9 @@ namespace CHESSGAME.ViewModel.Engine.RuleManager
         public QueenRuleGroup()
         {
             Rules.Add(new QueenMovementRule());
-            Rules.Add(new CanOnlyTakeEnnemyRule());
+            Rules.Add(new CanOnlyTakeEnemyRule());
             Rules.Add(new WillNotMakeCheck());
         }
-
         protected override Type Type => Type.Queen;
     }
 }

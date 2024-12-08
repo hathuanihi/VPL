@@ -5,7 +5,7 @@ using CHESSGAME.Model.AModel;
 
 namespace CHESSGAME.ViewModel.Engine.Rules
 {
-    internal class CanOnlyTakeEnnemyRuleKing : IRule
+    internal class CanOnlyTakeEnemyRuleKing : IRule
     {
         public bool IsMoveValid(Move move, Board board)
         {
@@ -17,9 +17,8 @@ namespace CHESSGAME.ViewModel.Engine.Rules
 
         public List<Square> PossibleMoves(Piece piece)
         {
-            return piece.Square.Board.Squares.OfType<Square>()
-                .ToList()
-                .FindAll(x => IsMoveValid(new Move(piece, x), piece.Square.Board));
+            return piece.Square.Board.Squares.OfType<Square>().ToList().FindAll(
+                x => IsMoveValid(new Move(piece, x), piece.Square.Board));
         }
     }
 }

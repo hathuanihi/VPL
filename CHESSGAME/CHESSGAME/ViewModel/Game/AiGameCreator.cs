@@ -14,20 +14,20 @@ namespace CHESSGAME.ViewModel.Game
         public override Core.Game CreateGame(Container container, BoardView boardView, Color color, GameCreatorParameters parameters)
         {
             IEngine engine = new RealEngine(container);
-            PlayerControler whitePlayerControler = new BoardViewPlayerController(boardView);
-            PlayerControler blackPlayerControler = new UciProcessController(container, parameters.AiSkillLevel);
-            Player whitePlayer = new Player(Color.White, whitePlayerControler);
-            Player blackPlayer = new Player(Color.Black, blackPlayerControler);
+            PlayerController whitePlayerController = new BoardViewPlayerController(boardView);
+            PlayerController blackPlayerController = new UciProcessController(container, parameters.AiSkillLevel);
+            Player whitePlayer = new Player(Color.White, whitePlayerController);
+            Player blackPlayer = new Player(Color.Black, blackPlayerController);
 
             Core.Game game = new Core.Game(engine, whitePlayer, blackPlayer, container, true);
 
             whitePlayer.Game = game;
             blackPlayer.Game = game;
 
-            whitePlayerControler.Player = whitePlayer;
-            blackPlayerControler.Player = blackPlayer;
+            whitePlayerController.Player = whitePlayer;
+            blackPlayerController.Player = blackPlayer;
 
-            boardView.BoardViewPlayerControllers.Add((BoardViewPlayerController)whitePlayerControler);
+            boardView.BoardViewPlayerControllers.Add((BoardViewPlayerController)whitePlayerController);
             return game;
         }
     }

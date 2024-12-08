@@ -1,4 +1,262 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CHESSGAME.ViewModel.IA.UciProcessController">
+    <Position X="6.5" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAACIQAAAAAAAgAACAAAAAAAEAAoCAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\AI\UciProcessController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Core.Game" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAUEAEQABAAAAAAFAAABCAAAAAAABAAAAAAAACA=</HashCode>
+      <FileName>ViewModel\Core\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Core.Player" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACIQAAAAAAAAAAEAAAAgAAAAAoAAAgAAAAAA=</HashCode>
+      <FileName>ViewModel\Core\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Core.PlayerController">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIQAAAAAAAAAAAAAAAAAAEAAoAAAAQAAAAA=</HashCode>
+      <FileName>ViewModel\Core\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.RealEngine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAAQABAAEAAAIACABAAAAQAABAAAAACAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\RealEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.RuleManager.BishopRuleGroup" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\RuleManager\BishopRuleGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.RuleManager.KingRuleGroup" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\RuleManager\KingRuleGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.RuleManager.KnightRuleGroup" Collapsed="true">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\RuleManager\KnightRuleGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.RuleManager.PawnRuleGroup" Collapsed="true">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\RuleManager\PawnRuleGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.RuleManager.QueenRuleGroup" Collapsed="true">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\RuleManager\QueenRuleGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.RuleManager.RookRuleGroup" Collapsed="true">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\RuleManager\RookRuleGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.RuleManager.RuleGroup" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAQAAAAAAAAAAAAAAAAgAAIAAQAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\RuleManager\RuleGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.Rules.BishopMovementRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\Rules\BishopMovementRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.Rules.CanOnlyTakeEnemyRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\Rules\CanOnlyTakeEnemyRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.Rules.CanOnlyTakeEnemyRuleKing" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\Rules\CanOnlyTakeEnemyRuleKing.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.Rules.CastlingRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ViewModel\Engine\Rules\CastlingRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.Rules.KingMovementRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\Rules\KingMovementRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.Rules.KnightMovementRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\Rules\KnightMovementRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.Rules.PawnMovementRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\Rules\PawnMovementRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.Rules.QueenMovementRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAQAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\Rules\QueenMovementRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.Rules.RookMovementRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ViewModel\Engine\Rules\RookMovementRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.Rules.WillNotMakeCheck" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\Rules\WillNotMakeCheck.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.States.CheckState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\States\CheckState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Engine.States.PatState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\States\PatState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Game.AiGameCreator">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Game\AiGameCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Game.BoardViewPlayerController">
+    <Position X="9.5" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIQAAAAAAAAAAAAAAAAAAEgAoAAAAAAAAAQ=</HashCode>
+      <FileName>ViewModel\Game\BoardViewPlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Game.GameCreator">
+    <Position X="3.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Game\GameCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Game.GameCreatorParameters" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Game\GameCreatorParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Game.GameFactory" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Game\GameFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHESSGAME.ViewModel.Game.LocalGameCreator">
+    <Position X="4.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Game\LocalGameCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CHESSGAME.ViewModel.Engine.IEngine" Collapsed="true">
+    <Position X="16.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQABAAEAAAAACABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\IEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CHESSGAME.ViewModel.Engine.Rules.IRule" Collapsed="true">
+    <Position X="18" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\Rules\IRule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CHESSGAME.ViewModel.Engine.States.IState" Collapsed="true">
+    <Position X="19.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>ViewModel\Engine\States\IState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CHESSGAME.ViewModel.Engine.BoardState" Collapsed="true">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAABAAAAAAAAIIABEAAAAAAAgAAA=</HashCode>
+      <FileName>ViewModel\Engine\IEngine.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CHESSGAME.ViewModel.Game.Mode" Collapsed="true">
+    <Position X="18" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Game\GameFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

@@ -7,11 +7,10 @@ namespace CHESSGAME.ViewModel.Engine.RuleManager
     {
         public BishopRuleGroup()
         {
-            Rules.Add(new CanOnlyTakeEnnemyRule());
+            Rules.Add(new CanOnlyTakeEnemyRule());
             Rules.Add(new BishopMovementRule());
             Rules.Add(new WillNotMakeCheck());
         }
-
         protected override Type Type => Type.Bishop;
     }
 }
