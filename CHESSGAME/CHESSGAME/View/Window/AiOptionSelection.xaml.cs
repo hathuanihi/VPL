@@ -4,6 +4,7 @@ using CHESSGAME.View.ModelView;
 using CHESSGAME.ViewModel.Game;
 using CHESSGAME.Model.AModel;
 using CHESSGAME.Model.AModel.Pieces;
+using CHESSGAME.Files;
 
 namespace CHESSGAME.View.Window
 {
@@ -60,6 +61,7 @@ namespace CHESSGAME.View.Window
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
+            Sound.PlayClickSound();
             GameFactory gameFactory = new GameFactory();
             BoardView boardView = new BoardView(_container);
             int skillLevel = ComboBoxLevel.SelectedValue as int? ?? 0;

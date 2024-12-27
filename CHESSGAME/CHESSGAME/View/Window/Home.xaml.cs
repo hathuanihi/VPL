@@ -5,6 +5,7 @@ using System.Windows.Controls;
 using CHESSGAME.Model.IO;
 using CHESSGAME.Model.AModel;
 using Microsoft.Win32;
+using CHESSGAME.Files;
 
 namespace CHESSGAME.View.Window
 {
@@ -23,11 +24,13 @@ namespace CHESSGAME.View.Window
 
         private void CreateNewGameButton_OnClick(object sender, RoutedEventArgs e) // Xử lý sự kiện click vào nút tạo ván game mới
         {
+            Sound.PlayClickSound();
             _mainWindow.MainControl.Content = new GameModeSelection(new Container(), _mainWindow);
         }
 
         private void UseSaveButton_OnClick(object sender, RoutedEventArgs e) // Xử lý sự kiện click vào nút tải ván game cũ
         {
+            Sound.PlayClickSound();
             ILoader loader = new BinaryLoader();
 
             const string directorySaveName = "Save";

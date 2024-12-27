@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\anhth\OneDrive\Documents\KTPM2023.3\Năm 2\HK1\vpl\Đồ án\ChessGame\CHESSGAME\CHESSGAME\obj\Debug\
+D:\Đồ án LTTQ\VPL\CHESSGAME\CHESSGAME\obj\Debug\
 CHESSGAME
 none
 false
 DEBUG;TRACE
-C:\Users\anhth\OneDrive\Documents\KTPM2023.3\Năm 2\HK1\vpl\Đồ án\ChessGame\CHESSGAME\CHESSGAME\App.xaml
+D:\Đồ án LTTQ\VPL\CHESSGAME\CHESSGAME\App.xaml
 11-337547083
 1-453290730
-72-710391777
-571033587136
+73415672841
+571288009893
 View\MainWindow.xaml;Resources\Pieces.xaml;View\FlyoutContent\GameViewFlyout.xaml;View\ModelView\BoardView.xaml;View\ModelView\PieceView.xaml;View\ModelView\SquareView.xaml;View\Window\AiOptionSelection.xaml;View\Window\Feature\PieceTypeSelectionWindow.xaml;View\Window\GameModeSelection.xaml;View\Window\GameView.xaml;View\Window\Home.xaml;
 
 False

@@ -13,6 +13,7 @@ using CHESSGAME.Model.Command;
 using Color = CHESSGAME.Model.AModel.Pieces.Color;
 using Type = CHESSGAME.Model.AModel.Pieces.Type;
 using System.Security.Cryptography;
+using CHESSGAME.Files;
 
 namespace CHESSGAME.View.ModelView
 {
@@ -263,6 +264,10 @@ namespace CHESSGAME.View.ModelView
                 concernedControllers.ForEach(x => x.Move(move));
                 _selected = false;
                 _hasBeginDragAndDrop = false;
+            }
+            if (move != null)
+            {
+                Sound.MoveClickSound(); 
             }
         }
         protected override void OnMouseMove(MouseEventArgs e) // Xử lý sự kiện di chuyển chuột

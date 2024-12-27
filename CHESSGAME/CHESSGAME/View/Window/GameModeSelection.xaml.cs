@@ -3,7 +3,10 @@ using CHESSGAME.ViewModel.Game;
 using CHESSGAME.Model.AModel;
 using CHESSGAME.Model.AModel.Pieces;
 using CHESSGAME.View.ModelView;
-
+using System.Media;
+using System;
+using System.Windows.Resources;
+using CHESSGAME.Files;
 namespace CHESSGAME.View.Window
 {
     /// <summary>
@@ -23,11 +26,13 @@ namespace CHESSGAME.View.Window
 
         private void TileAiPlay_OnClick(object sender, RoutedEventArgs e) // Xử lý sự kiện chơi với máy
         {
+            Sound.PlayClickSound();
             _mainWindow.MainControl.Content = new AiOptionSelection(_mainWindow, _container);
         }
 
         private void LocalGameButton_OnClick(object sender, RoutedEventArgs e) // Xử lý sự kiện chơi hai người
         {
+            Sound.PlayClickSound();
             GameFactory gameFactory = new GameFactory();
             BoardView boardView = new BoardView(_container);
             ViewModel.Core.Game game = gameFactory.CreateGame(Mode.Local, _container, boardView, Color.White, null);

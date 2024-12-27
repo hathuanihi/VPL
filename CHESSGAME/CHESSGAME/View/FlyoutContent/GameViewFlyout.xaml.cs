@@ -4,6 +4,7 @@ using System.Reflection;
 using System.Windows;
 using CHESSGAME.Model.IO;
 using Microsoft.Win32;
+using CHESSGAME.Files;
 
 namespace CHESSGAME.View.FlyoutContent
 {
@@ -27,6 +28,7 @@ namespace CHESSGAME.View.FlyoutContent
         /// <param name="e"></param>
         private void TileSave_OnClick(object sender, RoutedEventArgs e)
         {
+            Sound.PlayClickSound();
             ISaver saver = new BinarySaver();
             string directorySaveName = "Save";
             string fullSavePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\" +
@@ -43,6 +45,7 @@ namespace CHESSGAME.View.FlyoutContent
 
         private async void TileQuit_OnClick(object sender, RoutedEventArgs e)
         {
+            Sound.PlayClickSound();
             await _gameView.Quit();
         }
     }

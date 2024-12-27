@@ -1,7 +1,60 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anhth\\OneDrive\\Documents\\KTPM2023.3\\N\u0103m 2\\HK1\\vpl\\\u0110\u1ED3 \u00E1n\\ChessGame\\CHESSGAME\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|d:\\\u0111\u1ED3 \u00E1n lttq\\vpl\\chessgame\\chessgame\\files\\sound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\files\\sound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\viewmodel\\engine\\rules\\kingmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\kingmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\viewmodel\\engine\\rules\\rookmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\viewmodel\\engine\\rules\\rookmovementrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\view\\modelview\\squareview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\modelview\\squareview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\view\\window\\gamemodeselection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\gamemodeselection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\view\\window\\aioptionselection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\aioptionselection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\view\\window\\feature\\piecetypeselectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\feature\\piecetypeselectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\view\\window\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\view\\window\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\chessgame\\view\\window\\aioptionselection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90FE4A5-E4A5-48FA-8F39-0F4EDEF71273}|CHESSGAME\\CHESSGAME.csproj|solutionrelative:chessgame\\view\\window\\aioptionselection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,19 +62,164 @@
       "DocumentGroups": [
         {
           "DockedWidth": 46,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sound.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\Files\\Sound.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\Files\\Sound.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\Files\\Sound.cs",
+              "RelativeToolTip": "CHESSGAME\\Files\\Sound.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:58:41.879Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RookMovementRule.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\RookMovementRule.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\RookMovementRule.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\RookMovementRule.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\RookMovementRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T04:41:03.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KingMovementRule.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\KingMovementRule.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\ViewModel\\Engine\\Rules\\KingMovementRule.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\ViewModel\\Engine\\Rules\\KingMovementRule.cs",
+              "RelativeToolTip": "CHESSGAME\\ViewModel\\Engine\\Rules\\KingMovementRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:39:47.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T02:07:59.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SquareView.xaml.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\ModelView\\SquareView.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\ModelView\\SquareView.xaml.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\ModelView\\SquareView.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\ModelView\\SquareView.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T02:13:52.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameModeSelection.xaml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\GameModeSelection.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\GameModeSelection.xaml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\GameModeSelection.xaml",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\GameModeSelection.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T16:51:50.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AiOptionSelection.xaml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\AiOptionSelection.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\AiOptionSelection.xaml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\AiOptionSelection.xaml",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\AiOptionSelection.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T16:51:49.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PieceTypeSelectionWindow.xaml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\Feature\\PieceTypeSelectionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-09T02:07:52.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\MainWindow.xaml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\MainWindow.xaml",
+              "RelativeToolTip": "CHESSGAME\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T16:51:26.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\packages.config",
+              "RelativeDocumentMoniker": "CHESSGAME\\packages.config",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\packages.config",
+              "RelativeToolTip": "CHESSGAME\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-09T02:08:43.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\Home.xaml.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\Home.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\Home.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwB4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T02:04:40.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameView.xaml.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\GameView.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\GameView.xaml.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\GameView.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\GameView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T02:03:04.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AiOptionSelection.xaml.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\AiOptionSelection.xaml.cs",
+              "RelativeDocumentMoniker": "CHESSGAME\\View\\Window\\AiOptionSelection.xaml.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n LTTQ\\VPL\\CHESSGAME\\CHESSGAME\\View\\Window\\AiOptionSelection.xaml.cs",
+              "RelativeToolTip": "CHESSGAME\\View\\Window\\AiOptionSelection.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:13:03.16Z"
             }
           ]
         }

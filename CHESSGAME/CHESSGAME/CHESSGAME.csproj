@@ -205,6 +205,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Files\Sound.cs" />
     <Compile Include="Model\AModel\Board.cs" />
     <Compile Include="Model\AModel\Container.cs" />
     <Compile Include="Model\AModel\Coordinate.cs" />
@@ -388,6 +389,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Resource Include="Files\click_sound.wav" />
+    <Resource Include="Files\select_sound.wav" />
+    <Resource Include="Files\move_sound.wav" />
     <Content Include="Files\stockfish_64.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
