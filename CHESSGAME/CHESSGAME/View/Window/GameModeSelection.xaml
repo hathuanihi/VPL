@@ -40,7 +40,7 @@
                    Height="Auto"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Top">
-            <controls:Tile Title="Local"
+            <controls:Tile Title="PvP"
                            FontWeight="Bold"
                            Name="LocalGameButton"
                            Margin="3"
@@ -54,7 +54,7 @@
                                             Kind="DeviceDesktop" />
             </controls:Tile>
             
-            <controls:Tile Title="AI"
+            <controls:Tile Title="PvE"
                            FontWeight="Bold"
                            Margin="3"
                            Style="{StaticResource LargeTileStyle}"

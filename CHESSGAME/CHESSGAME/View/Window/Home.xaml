@@ -6,7 +6,7 @@
              xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
              xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
              mc:Ignorable="d">
-    
+
     <UserControl.Resources>
         <ResourceDictionary>
             <Style x:Key="LargeTileStyle" TargetType="controls:Tile">
@@ -26,7 +26,7 @@
             </Style>
         </ResourceDictionary>
     </UserControl.Resources>
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -51,18 +51,17 @@
                    VerticalAlignment="Top">
             <controls:Tile Title="Create a new game"
                            FontWeight="Bold"
-                           Margin="3"
                            Style="{StaticResource LargeTileStyle}"
                            Background="{DynamicResource AccentColorBrush}"
                            controls:ControlsHelper.MouseOverBorderBrush="{DynamicResource BlackBrush}"
                            HorizontalTitleAlignment="Center"
-                           Click="CreateNewGameButton_OnClick">
-                <iconPacks:PackIconModern Width="40"
-                                          Height="40"
+                           Click="CreateNewGameButton_OnClick" Width="385" Height="156">
+                <iconPacks:PackIconModern Width="50"
+                                          Height="50"
                                           Kind="New" />
             </controls:Tile>
-            
-            <controls:Tile Title="Resume a game"
+
+            <!--<controls:Tile Title="Resume a game"
                            FontWeight="Bold"
                            Margin="3"
                            Style="{StaticResource LargeTileStyle}"
@@ -73,8 +72,8 @@
                 <iconPacks:PackIconMaterial Width="40"
                                             Height="40"
                                             Kind="BackupRestore" />
-            </controls:Tile>
-            
+            </controls:Tile>-->
+
         </WrapPanel>
     </Grid>
 </UserControl>
