@@ -1,0 +1,20 @@
+﻿CHESSGAME
+
+
+winexe
+C#
+.cs
+C:\Users\anhth\OneDrive\Attachments\Máy tính\New folder\VPL\CHESSGAME\CHESSGAME\obj\Debug\
+CHESSGAME
+none
+false
+DEBUG;TRACE
+C:\Users\anhth\OneDrive\Attachments\Máy tính\New folder\VPL\CHESSGAME\CHESSGAME\App.xaml
+11-337547083
+1-453290730
+72-1797205837
+57-1498649564
+View\MainWindow.xaml;Resources\Pieces.xaml;View\FlyoutContent\GameViewFlyout.xaml;View\ModelView\BoardView.xaml;View\ModelView\PieceView.xaml;View\ModelView\SquareView.xaml;View\Window\AiOptionSelection.xaml;View\Window\Feature\PieceTypeSelectionWindow.xaml;View\Window\GameModeSelection.xaml;View\Window\GameView.xaml;View\Window\Home.xaml;
+
+False
+
